@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>flexbox.html</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            /*body{
+                direction: rtl;
+            }*/
+            .flex-container{
+                width: 400px;
+                display:-webkit-flex;
+                display:flex;
+                /*-webkit-flex-direction:row-reverse;
+                flex-direction: row-reverse;*/
+                /*-webkit-flex-direction:column-reverse;
+                flex-direction: column-reverse;*/
+               /* -webkit-justify-content:space-around;
+                justify-content: space-around;
+                flex-direction: column-reverse;*/
+/*               -webkit-align-items:center;*/
+                /*align-items: center;*//*center flex-end stretch baseline */
+               /*-webkit-flex-wrap:wrap-reverse;*/ /*nowrap;*/
+/*               flex-wrap: wrap-reverse;nowrap;*/
+/*                -webkit-align-content:flex-end;
+                align-content: flex-end;*/
+                
+                
+/*                -webkit-align-items:flex-end;*/
+                
+                
+                
+                height: 250px;
+                
+                background-color: lightgrey;
+                
+            }
+            .first{
+                -webkit-order:-2;
+                order: -2  ;
+  
+/*                margin: 10px;*/
+                margin:auto;
+            }
+            .flex-item{
+                    background-color: cornflowerblue;
+                    width: 100px;
+                    height: 100px;
+                    margin: 10px;
+/*                    margin: auto;*/
+                    
+                }
+                .flex-item:last-child{
+                    margin-right: auto;
+                }
+        </style>
+        <div class="flex-container">
+            <div class="flex-item">item 1</div>
+            <div class="flex-item first">item 2</div>
+            <div class="flex-item">item 3</div>
+        </div>
+    </body>
+</html>

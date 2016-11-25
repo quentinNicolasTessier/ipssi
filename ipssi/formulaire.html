@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="#" >
+            <fieldset>
+                <legend>Civilit&eacute;</legend>
+            <label>Civilit&eacute; : </label>
+            Homme *<input required type="radio" name="civilite" value="homme">
+            Femme *<input required type="radio" name="civilite" value="fomme">
+            <br/>
+            <label>Name *: </label>
+            <input required type="text" name="name" value="">
+            <br/>
+            <label>Pr&eacute;nom *: </label>
+            <input required type="text" name="name" value="">
+            <br/>
+            <label>Age *: </label>
+            <input required type="number" name="age" min="18" max="100" value="18" step="5">
+            <br/>
+            <label> Commentaire *:</label>
+            <textarea required name="commentaire">
+            </textarea>
+            <br/>
+            <input type="submit" name="valider" value="valider">
+            <input type="reset" name="effacer" value="effacer">
+            </fieldset>
+        </form>
+    </body>
+</html>

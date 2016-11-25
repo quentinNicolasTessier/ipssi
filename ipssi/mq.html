@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            *{
+                box-sizing: border-box;
+                padding:0;
+                margin: 0;
+            }
+            
+           
+            .row::after{
+                content: '';
+                clear: both;
+                display:block;
+            }
+            [class*='col-']{
+                float: left;
+                padding: 15px;
+                border: 1px solid #000;
+            }
+            .col-1{
+                width:8.33%;
+            }
+            .col-2{
+                width:16%;
+            }
+            .col-3{
+                width:25%;
+            }
+            .col-4{
+                width:33.33%;
+            }
+            .col-5{
+                width:41.66%;
+            }
+            .col-6{
+                width:50%;
+            }
+            .col-7{
+                width:58.33%;
+            }
+            .col-8{
+                width:66.66%;
+            }
+            .col-9{
+                width:75%;
+            }
+            .col-10{
+                width:83.33%;
+            }
+            .col-11{
+                width:91.66%;
+            }
+            .col-12{
+                width:100%;
+            }
+            
+            
+            .header{
+                background-color: darkblue;
+                color: #fff;
+                border: 1px solid #000;
+                padding: 15px;
+            }
+            .menu ul{
+                list-style: none;
+            }
+            .menu li{
+                padding: 8px;
+                margin-bottom: 10px;
+                background-color:#888;
+                color:#fff;
+                    
+            }
+            .menu li:hover{
+                background-color: darkred;
+            }
+            @media only screen and (max-width:480px)
+            {
+                .header{
+                    background-color: darkred;
+                }
+            }
+            @media only screen and (max-width:720px){
+                [class*='col-']{
+                    width:100%;
+                }
+            }
+            .right{
+                background-color: lightgray;
+            }
+            .right div{
+                min-height: 50px;
+            }
+            .aside{
+                margin-bottom: 10px;
+                
+            }
+            .pub{
+                background-color: blue;
+                
+                    
+            }
+            .contact{
+                background-color: darkgreen;
+            }
+            @media only screen and (orientation:landscpape){
+                .header{
+                    background-color: yellow;
+                }
+            }
+        </style>
+        <div class="header">
+            <h1>Mon site en responsive</h1>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+
+                </ul>
+            </div>
+            <div class="col-6">
+                <h1>Mon contenu</h1>
+                <picture>
+                    <source srcset="" media="(maw-width:400px"/> 
+                    <source>
+                    <img src="">
+                </picture>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+                <p>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+
+            </div>
+            <div class="col-3 right">
+                <div class="pub">
+                    Mes Pubs
+                </div>
+                <div class="contact">
+                    Mes contacts
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
